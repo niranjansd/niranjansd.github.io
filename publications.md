@@ -5,7 +5,8 @@ comments: false
 permalink: "/publications"
 ---
 
-<div class="row pub-item-row">
+<div> Whats up with that </div>
+<!-- <div class="row pub-item-row">
       <div class="col-md-4">
         <img src="assets/images/stages.png" class="img-responsive center-block img-rounded" alt="" style="max-height:300px">
       </div>
@@ -27,7 +28,7 @@ permalink: "/publications"
       </div>
 </div>
 
----
+<!-- ---
 
 <div class="row pub-item-row">
       <div class="col-md-4">
@@ -75,4 +76,4 @@ permalink: "/publications"
       </div>
 </div>
 
----
+--- -->
