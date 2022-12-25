@@ -4,9 +4,6 @@ title: Publications
 comments: false
 ---
 
-
-
-
 <div class="row pub-item-row">
       <div class="col-md-4">
         <img src="assets/images/stages.png" class="img-responsive center-block img-rounded" alt="" style="max-height:300px">
@@ -83,11 +80,4 @@ Niranjan Sridhar, Ali Shoeb, Philip Stephens, Alaa Kharbouch, David Ben Shim
       </div>
 </div>
 
-
 ---
-
-
-
-
-
-

@@ -96,15 +96,10 @@
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{ layout }}">
 
-
-
 <!-- Begin Menu Navigation
 ================================================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white  fixed-top mediumnavigation nav-down" style=" ">
     
-
-
-
     <div class="container pr-0">    
 
             <!-- Begin Logo -->
@@ -114,11 +109,6 @@
             </a>
             <!-- End Logo -->
 
-
-       
-                
-      
-      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -135,7 +125,7 @@
                     {% else %}
                     <li class="nav-item">
                     {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/">Writing</a>
                     </li>
                     
                     {% if page.url == "/about.html" %}
@@ -155,7 +145,6 @@
                     <a class="nav-link" href="{{ site.baseurl }}/publications">Publications</a>
                     </li>
 
-
                     <li class="nav-item">
                     <a target="_blank" class="nav-link" href="https://github.com/niranjansd/"><i class="fab fa-github"></i></a>
                     </li>
@@ -171,11 +160,6 @@
                     <li class="nav-item">
                     <a target="_blank"  class="nav-link" href="https://nirsd.substack.com"><i class="fab fa-substack"></i></a>
                     </li>
-
-
-
-                    
-
                   
                 </ul>		
       
@@ -198,17 +182,16 @@
     <div class="row">
 
         <div class="col-md-3 pl-0 main_profile_pic" style=" padding-right: 60px;"> 
-            <img src="https://www.gravatar.com/avatar/9a823cb5c633fa70ef0c7b92e0d770df?s=250&d=mm&r=x">
+            <img src="assets/images/nirsd.png">
         </div>
 
         <div class="col-md-9 pl-0"> 
             <h4>Hello!</h4>
-            <p class="doosrabandu" style="font-size: 18px; font-weight: 300 ">
-
+            <p class="nirintro" style="font-size: 18px; font-weight: 300 ">
               I’m a quantum physicist turned ML researcher passionate about physics and AI. Currently, I am working on AI for medical applications at <a href="https://verily.com/press/verily-opens-new-r-d-center-in-israel-focused-on-the-application-of-ai-in-healthcare/" target="_blank">Verily AI Research</a>. I did my graduate studies in Quantum Computing at <a href="https://www.physics.uva.edu/" target="_blank">University of Virginia</a>. 
               <br>
               In my free time I write about tech and philosophy. Check it out at <a href="https://nirsd.substack.com" target="_blank">Substack</a>. 
-                          </p>
+            </p>
         </div>
     </div>
 </div>
@@ -256,6 +239,6 @@
     
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
     
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+<!-- <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script> -->
 </body>
 </html>
