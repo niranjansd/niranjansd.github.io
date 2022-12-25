@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Publications
 comments: false
 permalink: "/publications"
