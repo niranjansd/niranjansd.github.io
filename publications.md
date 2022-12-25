@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 comments: false
+permalink: "/publications.html"
 ---
 
 <div class="row pub-item-row">
