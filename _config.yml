@@ -1,0 +1,46 @@
+# Site
+name: "Niranjan Sridhar"
+description: "AI researcher. Currently at Verily Life Sciences"
+meta_description: "AI researcher. Currently at Verily Life Sciences"
+logo: 'assets/images/log.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+google_analytics: 'G-QTDL8VBNWY'
+
+# Authors
+authors:
+  divam:
+    name: Niranjan Sridhar
+    display_name: Niranjan Sridhar
+    gravatar: 9a823cb5c633fa70ef0c7b92e0d770df
+    email: niranjan.sd@gmail.com
+    web: https://nirsd.com
+    twitter: https://twitter.com/nirsd
+    description: "I’m a quantum physicist turned ML researcher passionate about physics and AI."
+
+
+url: "https://niranjansd.github.io"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
